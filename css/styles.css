@@ -7,28 +7,33 @@ button {
 }
 /*хедер*/
 .logo-header {
-  color: #2196f3;
-  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700px;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
   letter-spacing: 0.03em;
+  color: #2196f3;
   text-decoration: none;
 }
 .studio-footer-logo {
   color: #000000;
 }
-/*меню навигации*/
+/*меню навигации Студия,Портфолио,Контакты*/
 .site-nav {
-  font-weight: 500;
+  font-weight: 500px;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
 }
+/*Номер и почта*/
 .contact-nav {
-  font-weight: 500;
+  font-weight: 500px;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-.link-header > li > a {
+.link-header {
   text-decoration: none;
 }
 .link-header:hover,
@@ -41,9 +46,66 @@ button {
 }
 /*Центральная зона*/
 /* Эффективные решения для вашего бизнеса */
-.center-text {
-  font-weight: 900;
+.hero-text {
+  background-color: #2f303a;
+  font-weight: 900px;
   font-size: 44px;
   line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: #ffffff;
+}
+/* характеристики */
+.title-char {
+  font-weight: 700px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.title-char-p {
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/*Чем мы занимаемся*/
+.work {
+  font-weight: 700px;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/*Наша команда*/
+.sect-team {
+  background: #f5f4fa;
+}
+.our-team {
+  font-weight: 700px;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.name-team {
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.descr-team {
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* Футер */
+.logo-footer {
 }
