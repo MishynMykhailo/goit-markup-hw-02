@@ -1,0 +1,49 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+}
+button {
+  font-family: inherit;
+}
+/*хедер*/
+.logo-header {
+  color: #2196f3;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.studio-footer-logo {
+  color: #000000;
+}
+/*меню навигации*/
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.contact-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.link-header > li > a {
+  text-decoration: none;
+}
+.link-header:hover,
+.link-header:focus {
+  color: #2196f3;
+}
+/*Сброс точек у Li*/
+.list {
+  list-style: none;
+}
+/*Центральная зона*/
+/* Эффективные решения для вашего бизнеса */
+.center-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: #ffffff;
+}
