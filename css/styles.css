@@ -172,6 +172,7 @@ button {
 /*Button- Кнопки*/
 .button-filter.current-button {
   background-color: #2196f3;
+  color: #ffffff;
 }
 .button-filter {
   background-color: #f5f4fa;
