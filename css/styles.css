@@ -9,6 +9,10 @@ button {
 .list {
   list-style: none;
 }
+.link-portf a {
+  text-decoration: none;
+  cursor: pointer;
+}
 /*Тут шрифт для лого в Хедере и в футере */
 .title-hd,
 .logo-name-ft {
@@ -81,6 +85,10 @@ button {
   letter-spacing: 0.06em;
   color: #ffffff;
 }
+.button-hero-sect:hover,
+.button-hero-sect:focus {
+  background-color: #188ce8;
+}
 .char-text {
   font-weight: 700;
   font-size: 14px;
@@ -152,6 +160,9 @@ button {
 }
 .adress-ft {
   color: #ffffff;
+}
+.adress-sect {
+  font-style: normal;
 }
 .link-cont-ft {
   font-size: 14px;
